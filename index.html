@@ -1,0 +1,16 @@
+<html lang="pt-br">
+<head>
+  <meta charset="utf-8">
+  <title>Mask Money</title>
+  <script src="libs/angular.min.js"></script>
+  <Script src="libs/angular-locale_pt-br.min.js"></script>
+  <script src="mask_directive.js"></script>
+</head>
+<body ng-app="app">
+  <div ng-controller="appController">
+  <h3>Valor no model: {{ currencyVal }}</h31>
+  <br /><br />
+  <input type='text' ng-model="currencyVal" mask-currency />
+</div>
+</body>
+</html>
