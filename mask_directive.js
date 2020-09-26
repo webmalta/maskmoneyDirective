@@ -7,7 +7,7 @@
     $scope.currencyVal = 100000;
   }])
   
-  .directive('maskCurrency', ['$locale', '$timeout', '$filter', function($locale, $timeout, $filter) {
+  .directive('maskMoney', ['$locale', '$timeout', '$filter', function($locale, $timeout, $filter) {
       var _n = /[^0-9]/g;
       var _z = /^0+/;
 
