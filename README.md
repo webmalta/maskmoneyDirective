@@ -1,5 +1,5 @@
 
-### Diretiva de máscara money (angularJS)
+### Diretiva maskMoney (angularJS)
 
 `$ npm install`
 
