@@ -1,4 +1,3 @@
-// Required Modules
 var express    = require("express");
 var morgan     = require("morgan");
 var app        = express();
@@ -9,10 +8,9 @@ app.use(morgan("dev"));
 app.use(express.static("./"));
 
 app.get("/", function(req, res) {
-    res.sendFile("./index.html"); //index.html file of your angularjs application
+    res.sendFile("./index.html");
 });
 
-// Start Server
 app.listen(port, function () {
     console.log( "Acess localhost:" + port);
 });
